@@ -15,7 +15,7 @@
    <center>
       <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="256.0" prefWidth="454.0">
          <children>
-            <GridPane layoutX="104.0" layoutY="49.0" prefHeight="110.0" prefWidth="245.0">
+            <GridPane layoutX="127.0" layoutY="57.0" prefHeight="119.0" prefWidth="193.0">
                <columnConstraints>
                   <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                </columnConstraints>
@@ -25,7 +25,7 @@
                   <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                </rowConstraints>
                <children>
-                  <TextField fx:id="userId" onKeyReleased="#checkIfAnyInput" />
+                  <TextField fx:id="userId" onKeyReleased="#checkIfAnyInput" prefWidth="134.0" />
                   <PasswordField fx:id="passwordField" onKeyReleased="#checkIfAnyInput" GridPane.rowIndex="2" />
                   <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="20.0" prefWidth="247.0" text="Password" GridPane.rowIndex="1">
                      <font>
@@ -34,7 +34,7 @@
                   </Label>
                </children>
             </GridPane>
-            <GridPane layoutX="160.0" layoutY="159.0" prefHeight="68.0" prefWidth="134.0">
+            <GridPane layoutX="129.0" layoutY="193.0" prefHeight="30.0" prefWidth="195.0">
                <columnConstraints>
                   <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                   <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -44,8 +44,7 @@
                </rowConstraints>
                <children>
                   <Button fx:id="btnLogIn" mnemonicParsing="false" onAction="#logIn" text="log - in" />
-                  <Button fx:id="btnSignUp" mnemonicParsing="false" onAction="#signUp" text="Sig - Up" GridPane.columnIndex="1" />
-               </children>
+                  <Button fx:id="btnSignUp" mnemonicParsing="false" onAction="#signUp" text="Sig - Up" GridPane.columnIndex="1" /></children>
             </GridPane>
             <Label layoutX="199.0" layoutY="32.0" text="User ID">
                <font>

@@ -22,9 +22,12 @@ public class LogInController implements Initializable {
     @FXML private Button btnLogIn, btnSignUp;
     @FXML private PasswordField passwordField;
     @FXML private TextField userId;
+
     private LogicManager logicManager;
+
     @Override
     public void initialize(URL location, ResourceBundle resources) {
+
         logicManager = new LogicManager();
         btnLogIn.setDisable(true);
         btnSignUp.setDisable(true);
@@ -37,9 +40,9 @@ public class LogInController implements Initializable {
     }
 
     public void signUp(ActionEvent actionEvent) {
-        logicManager = new LogicManager();
-        System.out.println("Username is: " + userId.getText() + "\nPassword is: " + passwordField.getText());
-        logicManager.openNewView("Hovedvindue.fxml", "Movie recommendation system");
+       logicManager = new LogicManager();
+       System.out.println("Username is: " + userId.getText() + "\nPassword is: " + passwordField.getText());
+       logicManager.openNewView("Hovedvindue.fxml", "Movie recommendation system");
     }
 
     public void checkIfAnyInput(KeyEvent keyEvent) {
