@@ -30,6 +30,7 @@ public class LogInController implements Initializable {
 
         logicManager = new LogicManager();
         btnLogIn.setDisable(true);
+        btnSignUp.setDisable(false);
     }
 
     public void logIn(ActionEvent actionEvent) {
