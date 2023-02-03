@@ -44,7 +44,7 @@ public class LogInController implements Initializable {
     public void signUp(ActionEvent actionEvent) {
        logicManager = new LogicManager();
        System.out.println("Username is: " + userId.getText() + "\nPassword is: " + passwordField.getText());
-       logicManager.openNewView("Hovedvindue.fxml", "Movie recommendation system");
+       logicManager.openNewView("Index.fxml", "Movie recommendation system");
     }
 
     public void checkIfAnyInput(KeyEvent keyEvent) {
