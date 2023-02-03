@@ -10,7 +10,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("presentation/View/LogIn.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("presentation/View/Hovedvindue.fxml"));
         primaryStage.setTitle("Movie Recommendation System");
         primaryStage.setScene(new Scene(root));
         primaryStage.show();

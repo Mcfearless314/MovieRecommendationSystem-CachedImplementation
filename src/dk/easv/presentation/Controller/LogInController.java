@@ -36,7 +36,9 @@ public class LogInController implements Initializable {
     public void logIn(ActionEvent actionEvent) {
         logicManager = new LogicManager();
         System.out.println("Username is: " + userId.getText() + "\nPassword is: " + passwordField.getText());
-        logicManager.openNewView("Hovedvindue.fxml", "Movie recommendation system");
+
+        Stage stage = (Stage) btnLogIn.getScene().getWindow();
+        stage.close();
     }
 
     public void signUp(ActionEvent actionEvent) {
