@@ -15,6 +15,7 @@ public class IndexController implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
+        logicManager = new LogicManager();
         logicManager.openNewView("LogIn.fxml", "Movie recommendation system");
         if (false) System.exit(0); //TODO if login is not given, close program
     }
