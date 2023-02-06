@@ -1,124 +1,117 @@
-# Compiled class file
-*.class
+# Created by https://www.toptal.com/developers/gitignore/api/intellij
+# Edit at https://www.toptal.com/developers/gitignore?templates=intellij
 
-# Log file
-*.log
+### Intellij ###
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
-# BlueJ files
-*.ctxt# Created by https://www.toptal.com/developers/gitignore/api/intellij
-      # Edit at https://www.toptal.com/developers/gitignore?templates=intellij
+# User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
 
-      ### Intellij ###
-      # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
-      # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+# AWS User-specific
+.idea/**/aws.xml
 
-      # User-specific stuff
-      .idea/**/workspace.xml
-      .idea/**/tasks.xml
-      .idea/**/usage.statistics.xml
-      .idea/**/dictionaries
-      .idea/**/shelf
+# Generated files
+.idea/**/contentModel.xml
 
-      # AWS User-specific
-      .idea/**/aws.xml
+# Sensitive or high-churn files
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
 
-      # Generated files
-      .idea/**/contentModel.xml
+# Gradle
+.idea/**/gradle.xml
+.idea/**/libraries
 
-      # Sensitive or high-churn files
-      .idea/**/dataSources/
-      .idea/**/dataSources.ids
-      .idea/**/dataSources.local.xml
-      .idea/**/sqlDataSources.xml
-      .idea/**/dynamic.xml
-      .idea/**/uiDesigner.xml
-      .idea/**/dbnavigator.xml
+# Gradle and Maven with auto-import
+# When using Gradle or Maven with auto-import, you should exclude module files,
+# since they will be recreated, and may cause churn.  Uncomment if using
+# auto-import.
+# .idea/artifacts
+# .idea/compiler.xml
+# .idea/jarRepositories.xml
+# .idea/modules.xml
+# .idea/*.iml
+# .idea/modules
+# *.iml
+# *.ipr
 
-      # Gradle
-      .idea/**/gradle.xml
-      .idea/**/libraries
+# CMake
+cmake-build-*/
 
-      # Gradle and Maven with auto-import
-      # When using Gradle or Maven with auto-import, you should exclude module files,
-      # since they will be recreated, and may cause churn.  Uncomment if using
-      # auto-import.
-      # .idea/artifacts
-      # .idea/compiler.xml
-      # .idea/jarRepositories.xml
-      # .idea/modules.xml
-      # .idea/*.iml
-      # .idea/modules
-      # *.iml
-      # *.ipr
+# Mongo Explorer plugin
+.idea/**/mongoSettings.xml
 
-      # CMake
-      cmake-build-*/
+# File-based project format
+*.iws
 
-      # Mongo Explorer plugin
-      .idea/**/mongoSettings.xml
+# IntelliJ
+out/
 
-      # File-based project format
-      *.iws
+# mpeltonen/sbt-idea plugin
+.idea_modules/
 
-      # IntelliJ
-      out/
+# JIRA plugin
+atlassian-ide-plugin.xml
 
-      # mpeltonen/sbt-idea plugin
-      .idea_modules/
+# Cursive Clojure plugin
+.idea/replstate.xml
 
-      # JIRA plugin
-      atlassian-ide-plugin.xml
+# SonarLint plugin
+.idea/sonarlint/
 
-      # Cursive Clojure plugin
-      .idea/replstate.xml
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
 
-      # SonarLint plugin
-      .idea/sonarlint/
+# Editor-based Rest Client
+.idea/httpRequests
 
-      # Crashlytics plugin (for Android Studio and IntelliJ)
-      com_crashlytics_export_strings.xml
-      crashlytics.properties
-      crashlytics-build.properties
-      fabric.properties
+# Android studio 3.1+ serialized cache file
+.idea/caches/build_file_checksums.ser
 
-      # Editor-based Rest Client
-      .idea/httpRequests
+### Intellij Patch ###
+# Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
 
-      # Android studio 3.1+ serialized cache file
-      .idea/caches/build_file_checksums.ser
+# *.iml
+# modules.xml
+# .idea/misc.xml
+# *.ipr
 
-      ### Intellij Patch ###
-      # Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
+# Sonarlint plugin
+# https://plugins.jetbrains.com/plugin/7973-sonarlint
+.idea/**/sonarlint/
 
-      # *.iml
-      # modules.xml
-      # .idea/misc.xml
-      # *.ipr
+# SonarQube Plugin
+# https://plugins.jetbrains.com/plugin/7238-sonarqube-community-plugin
+.idea/**/sonarIssues.xml
 
-      # Sonarlint plugin
-      # https://plugins.jetbrains.com/plugin/7973-sonarlint
-      .idea/**/sonarlint/
+# Markdown Navigator plugin
+# https://plugins.jetbrains.com/plugin/7896-markdown-navigator-enhanced
+.idea/**/markdown-navigator.xml
+.idea/**/markdown-navigator-enh.xml
+.idea/**/markdown-navigator/
 
-      # SonarQube Plugin
-      # https://plugins.jetbrains.com/plugin/7238-sonarqube-community-plugin
-      .idea/**/sonarIssues.xml
+# Cache file creation bug
+# See https://youtrack.jetbrains.com/issue/JBR-2257
+.idea/$CACHE_FILE$
 
-      # Markdown Navigator plugin
-      # https://plugins.jetbrains.com/plugin/7896-markdown-navigator-enhanced
-      .idea/**/markdown-navigator.xml
-      .idea/**/markdown-navigator-enh.xml
-      .idea/**/markdown-navigator/
+# CodeStream plugin
+# https://plugins.jetbrains.com/plugin/12206-codestream
+.idea/codestream.xml
 
-      # Cache file creation bug
-      # See https://youtrack.jetbrains.com/issue/JBR-2257
-      .idea/$CACHE_FILE$
+# Azure Toolkit for IntelliJ plugin
+# https://plugins.jetbrains.com/plugin/8053-azure-toolkit-for-intellij
+.idea/**/azureSettings.xml
 
-      # CodeStream plugin
-      # https://plugins.jetbrains.com/plugin/12206-codestream
-      .idea/codestream.xml
-
-      # Azure Toolkit for IntelliJ plugin
-      # https://plugins.jetbrains.com/plugin/8053-azure-toolkit-for-intellij
-      .idea/**/azureSettings.xml
-
-      # End of https://www.toptal.com/developers/gitignore/api/intellij
+# End of https://www.toptal.com/developers/gitignore/api/intellij
